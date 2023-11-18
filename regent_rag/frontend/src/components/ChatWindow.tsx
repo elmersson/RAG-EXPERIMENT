@@ -42,7 +42,7 @@ const ChatWindow = () => {
 
     try {
       // Make a POST request to the backend
-      const response = await axios.post("http://localhost:5000/chat", {
+      const response = await axios.post("http://127.0.0.1:5000/chat", {
         query: userInput,
       });
 
