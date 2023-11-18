@@ -1,16 +1,11 @@
 import styled from "styled-components";
 
 export const ChatContainer = styled.div`
-  max-width: 800px;
-  width: 90%;
-  margin: 3% auto;
-  border: 1px solid #333;
-  border-radius: 5px;
+  width: auto;
   background-color: #343541;
-  padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
-  height: 80vh;
+  height: 100vh;
 `;
 
 export const MessagesContainer = styled.div`
